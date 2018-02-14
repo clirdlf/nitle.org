@@ -1,0 +1,33 @@
+{
+  "name": "nitle.org",
+  "version": "1.0.0",
+  "description": "automation for Endangered Data Week site",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clirdlf/nitle.org.git"
+  },
+  "author": "CLIR/DLF",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/clirdlf/nitle.org/issues"
+  },
+  "homepage": "http://www.nitle.org",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "dotenv": "^4.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-include": "^2.3.1",
+    "gulp-modernizr": "^1.0.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.12.1",
+    "gulp-uglify": "^2.0.0",
+    "node-sass": "^3.13.1",
+    "pump": "^1.0.1"
+  }
+}
