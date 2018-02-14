@@ -1,3 +1,14 @@
+@import 'vars'; //social media colors
+
 body {
   color: #000;
+}
+
+// CLIR logo fonts
+.clir-color { color: $clir-burgundy; }
+.clir-font  { font-family: 'A028', serif; }
+.logo {
+  font-size: 22px;
+  letter-spacing: 1px;
+  margin-bottom: 0;
 }
