@@ -1,22 +1,7 @@
 @import 'vars'; //social media colors
 
-@mixin dark-overlay{
-  &:after{
-    content: "";
-    width: 50%;
-    height: auto;
-    position: absolute;
-    z-index: -1;  // Take note of this negative z-index and compare to each article's positive z-index. This helps your content to show up over the overlay.
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-  }
-}
-
-body, html {
-  height: 100%;
-}
+$gradient_color: rgba(80, 80, 80, 0.85);
+// $gradient_color: rgba(119, 17, 0, 0.85);
 
 // CLIR logo fonts
 .clir-color { color: $clir-burgundy; }
@@ -29,9 +14,9 @@ body, html {
 
 .cover {
   background-image: url("images/background.jpg");
-  // background-image: -moz-linear-gradient(left, rgba(119, 17, 0, 0.85), rgba(119, 17, 0, 0.85)), url("images/nitle-resize.png");
-  // background-image: -webkit-linear-gradient(left, rgba(119, 17, 0, 0.85), rgba(119, 17, 0, 0.85)), url("images/nitle-resize.png");
-  background-image: linear-gradient(to right, rgba(119, 17, 0, 0.85), rgba(119, 17, 0, 0.85)), url("images/nitle-resize.png");
+  background-image: -moz-linear-gradient(left, $gradient_color, $gradient_color), url("images/nitle-resize.png");
+  background-image: -webkit-linear-gradient(left, $gradient_color, $gradient_color), url("images/nitle-resize.png");
+  background-image: linear-gradient(to right, $gradient_color, $gradient_color), url("images/nitle-resize.png");
   background-size: cover;
   background-position: top left, center center;
   background-attachment: fixed;
@@ -39,9 +24,7 @@ body, html {
   height: 100%;
 }
 
-#message {
-  z-index: 3;
-  opacity: 1.0;
-  margin-top: 3em;
-  text-shadow: 0 1px 3px rgba(0,0,0,.25);
+.jumbotron {
+  margin-top: 8em;
+  margin-bottom: 8em;
 }
