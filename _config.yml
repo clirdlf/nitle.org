@@ -19,9 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   The National Institute for Technology in Liberal Education (NITLE) helps liberal arts colleges and universities integrate inquiry, pedagogy, and technology. We work with our member institutions to enrich undergraduate education and strengthen the liberal arts tradition. Established in 2001, NITLE is the key organization for liberal arts colleges and universities seeking to engage students in the unique learning experience that liberal education provides and to use technology strategically to advance the liberal arts mission.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://nitle.org" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
-google-tracking-id: xxxx
+google-tracking-id: 
 
 # Build settings
 markdown: kramdown

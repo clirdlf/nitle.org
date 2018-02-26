@@ -9,7 +9,9 @@ title: Welcome to NITLE
   <h1 class="display-4">National Institute for Technology in Liberal Education</h1>
 
   <p class="lead">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    For nearly 20 years, NITLE operated to "stimulate collaboration between selected liberal arts colleges and to act as a catalyst for the effective integration of emerging and newer digital technologies into teaching, learning, scholarship, and information management." As higher education has continued to evolve over the last two decades, so have the services and collaboration platforms that NITLE was initially designed to encourage. After <a href="https://www.clir.org/pubs/reports/pub172/">much analysis</a>, the decision to cease operations was made in November 2017.</p>
+
+  <p class="lead"> We would like to thank everyone who contributed to the projects and technologies that benefited so many.
   </p>
 
   <ul class="list-group mb-3">
